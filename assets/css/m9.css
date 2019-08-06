@@ -1,0 +1,222 @@
+.bold{
+    font-weight: bold !important;
+}
+.white{
+    color: white !important;
+}
+::selection{
+    background-color: #9e1b32!important;
+    color: white;
+}
+.justificado{
+    text-align: justify;
+}
+/*form-slider*/
+.automobile-banner-tabs {
+    background-color: #212222bd;
+}
+.form-control {
+    background-color: #21222245;
+}
+.automobile-banner .slick-dots li button {
+    background-color: #9E1B32;
+}
+.automobile-banner-tabs .nav-tabs li {
+    width: 100%;
+}
+.btn-m9{
+    width: 100%;
+    font-weight: bold;
+    background-color: #f30932;
+    color: white;
+    font-size: 18px;
+    border-radius: 0px;
+}
+.btn-models{
+    width: 100%;
+    font-weight: bold;
+    background-color: #9E1B32;
+    color: white;
+    font-size: 18px;
+    border-radius: 0px;
+}
+.automobile-banner-tabs .tab-content {
+    padding: 15px 40px 18px;
+}
+.automobile-banner-tabs {
+    width: 70%;
+    /*margin-left: 35%;*/
+    margin-bottom: 10%;
+    background-color: #212222eb;
+    border-radius: 2px;
+}
+.form-control{
+    border-radius: 0px;
+    color: #999;
+}
+.form-control:focus {
+    border-color: #c31835;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgb(245, 245, 245);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgb(255, 0, 45);
+}
+.automobile-banner-tabs .nav-tabs li a {
+    padding: 18px 23px 5px 21px;
+    color: white;
+}
+.blue-transparent {
+    background-color: rgba(44, 46, 59, 0.02);
+}
+/*form-slider*/
+/*header*/
+.automobile-header-one {
+    background-color: #212222;
+    border-bottom: 4px solid #9E1B32;
+}
+/*header*/
+/*body-color*/
+.automobile-fancy-title h2 > span:before {
+    display: none;
+}
+.automobile-fancy-title h2 > span:after {
+    display: none;
+}
+.automobile-fancy-title {
+    margin: 0px 0px 25px;
+}
+.automobile-car-dealsfull {
+    padding: 50px 0px 70px;
+}
+/*body-color*/
+/*modelos*/
+.invisivel{
+    visibility: hidden;
+}
+.automobile-main-content .widget {
+    margin: 50px 0px 50px;
+}
+.automobile-images-thumb .slick-arrow:hover {
+    background-color: rgba(158, 27, 50, 0.84);
+}
+/*modelos*/
+/*footer*/
+.automobile-footer-widget a:hover{
+    color: #c11433!important;
+}
+.automobile-footer-widget a, .automobile-footer-widget p {
+    font-weight: bold;
+}
+.automobile-copyright {
+    float: left;
+    width: 100%;
+    border-top: 2px solid rgba(255,255,255,0.05);
+    text-align: center;
+    padding: 16px 0px 26px 0px;
+    margin-top: 0px;
+}
+#bottomcopy{
+    margin-bottom: 20px;
+}
+.automobile-footer-widget {
+    background: url(../images/footer-bg.jpg);
+    padding-top: 93px;
+    padding-right: 0px;
+    padding-bottom: 55px;
+    padding-left: 0px;
+}
+.color-extrema{
+    color: #0c7037;
+}
+.color-jaguar{
+    color: #9E1B32;
+}
+.color-m9{
+    color: orange;
+}
+.footer{
+    font-weight: 500;
+    color: white !important;
+    font-size: 15px !important;
+}
+.footer-widget-transparent {
+    background-color: rgba(17, 18, 26, 0.87);
+}
+.automobile-main-content {
+    background-color: whitesmoke;
+}
+.automobile-footer-slider, .automobile-footer-one {
+    height: 205px;
+}
+@media (max-width: 990px) and (min-width: 768px){
+    .automobile-footer-widget .widget {
+        float: left;
+        width: 51%;
+    }
+}
+/*footer*/
+/*esses 2 media screens serve so ser o tamanho do banner principal for do tamanho do banner dos modelos,
+ todavia se for possivel pedir para os designs fazerem um banner do tamanho requerido 
+ so basta comentar esses media screens que tudo ficara ok! Att. Lucas */
+ /*comeca aqui*/
+/*@media (max-width: 1199px) and (min-width: 1015px){
+    .automobile-banner-tabs {
+        width: 65%;
+    }
+    .automobile-banner-tabs .nav-tabs li a {
+        padding: 5px 23px 0px 21px;
+    }
+    .automobile-banner-tabs .tab-content {
+        padding: 6px 40px 35px;
+    }
+}
+@media (max-width: 1015px) and (min-width: 992px){
+    .automobile-banner-tabs {
+        width: 65%;
+    }
+    .automobile-banner-tabs .tab-content {
+        padding: 5px 40px 35px;
+    }
+    .automobile-banner-tabs .nav-tabs li a {
+        padding: 0px 23px 0px 21px;
+    }
+}*/
+/*termina aqui*/
+@media (max-width: 991px){
+    .automobile-banner-tabs {
+        width: 45%;
+        /*margin-left: 70%;*/
+    }
+    .automobile-banner-tabs .tab-content {
+        padding: 0px 40px 24px;
+    }
+}
+@media (max-width: 990px){
+    .automobile-banner-tabs {
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+/*COMPARTILHE NAS REDES...*/
+/*@media (max-width: 990px) and (min-width: 768px){
+    .automobile-main-content .col-md-4, .automobile-main-content .col-md-3 {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: -4px;
+        width: 100%;
+    }
+}*/
+/*@media (max-width: 990px) and (min-width: 768px){
+    .automobile-logo {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0px 10px;
+    }
+}
+@media (max-width: 767px){
+    .automobile-logo {
+        width: 100%;
+        text-align: center;
+        margin: 11px 0px 10px;
+    }
+}*/
